@@ -1,22 +1,17 @@
+import { Route, Routes } from "react-router";
 import "./App.css";
-import Experience from "./Containers/Experience/Experience";
-import ExperienceTwo from "./Containers/Experience/ExperienceTwo";
-import { Footer } from "./Containers/Footer/Footer";
-import Header from "./Containers/Header/Header";
-import Navbar from "./Containers/NavBar/Navbar";
-import Testimonial from "./Containers/Testimonial/Testimonial";
-import TestimonialTwo from "./Containers/Testimonial/TestimonialTwo";
+import Alert from "./Containers/Form/Alert";
+import FormPage from "./Page/FormPage";
+import Landing from "./Page/Landing";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <Experience />
-      <Testimonial />
-      <ExperienceTwo />
-      <TestimonialTwo />
-      <Footer />
+      <Routes>
+        <Route path="/*" element={<Landing />}></Route>
+        <Route path="/share-story" element={<FormPage />}></Route>
+        <Route path="/success" element={<Alert />}></Route>
+      </Routes>
     </div>
   );
 }

@@ -20,8 +20,10 @@ const ExperienceTwo = () => {
           definately be coming back!
         </p>
         <div className="flex flex-col mx-0 mt-8 mb-4">
-          <p className="uppercase text-orange-500">Share your own story!</p>
-          <img src={line} alt="" className="w-56" />
+          <a href="/share-story">
+            <p className="uppercase text-orange-500">Share your own story!</p>
+            <img src={line} alt="" className="w-56" />
+          </a>
         </div>
       </div>
 
