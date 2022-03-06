@@ -5,8 +5,8 @@ export const Footer = () => {
   return (
     <footer className="bg-zinc-800 py-12 px-8 md:py-24 md:px-24">
       <div className="flex lg:flex-row flex-col-reverse justify-around">
-        <img src={subbanner} alt="" className="lg:relative lg:bottom-20" />
-        <div className="flex flex-col lg:w-4/12 my-16">
+        <img src={subbanner} alt="" className="lg:relative lg:bottom-40" />
+        <div className="flex flex-col lg:w-4/12 my-3">
           <h1 className="lg:text-5xl text-2xl font-bold text-white">
             Be a member of our community 🎉
           </h1>
