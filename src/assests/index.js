@@ -17,3 +17,4 @@ export { default as subbanner } from "./subscribe-banner.png";
 export { default as logo } from "./Vasiti-Logo-black.png";
 export { default as womancard } from "./woman-shoppingbag-card.png";
 export { default as line } from "./line.png";
+export { default as social } from "./sm-icons.png";
